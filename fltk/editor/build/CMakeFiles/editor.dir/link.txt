@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/editor.dir/main.cpp.o -o editor  /usr/lib/x86_64-linux-gnu/libfltk_images.so /usr/lib/x86_64-linux-gnu/libfltk_forms.so /usr/lib/x86_64-linux-gnu/libfltk_gl.so -lGL /usr/lib/x86_64-linux-gnu/libfltk.so -lX11 -lXext -lm 

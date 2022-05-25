@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/patrick/Desktop/editor/main.cpp
+FL/Fl.H
+-
+FL/Fl_Window.H
+-
+FL/Fl_Menu_Bar.H
+-
+FL/Fl_Text_Editor.H
+-
+FL/Fl_Text_Buffer.H
+-
+FL/Fl_Native_File_Chooser.H
+-
+string
+-
+iostream
+-
+

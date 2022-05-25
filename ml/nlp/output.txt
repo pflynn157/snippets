@@ -1,0 +1,3 @@
+PN:i|V:am|AV:here|MK:,|CJ:and|PN:you|V:are|AV:not|AV:here|MK:.|
+PN:i|V:am|AT:a|N:man|MK:.|
+PN:she|V:is|AT:a|N:woman|MK:.|
