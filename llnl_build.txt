@@ -1,0 +1,30 @@
+../rose/configure --prefix=$HOME/llnl/rose_install --enable-languages=c,c++ \
+        --with-boost=/usr --with-boost-libdir=/usr/lib/x86_64-linux-gnu/ \
+        --enable-clang-frontend
+        
+../rose/configure --prefix=$HOME/llnl/rose_install --enable-languages=c,c++ \
+        --with-boost=/usr --with-boost-libdir=/usr/lib/x86_64-linux-gnu/
+
+cmake ../rose -Denable-java=no -Denable-opencl=no \
+        -Denable-php=no -DQT_ROOT=no -DZ3_ROOT=no \
+        -Denable-binary-analysis=no \
+        -Denable-cuda=no -Denable-fortran=no \
+        -Denable-FLTK=no -DYAMLCPP_ROOT=no \
+        -DCAPSTONE_ROOT=no -DGCRYPT_ROOT=no \
+        -DGPGERROR=no -DMAGIC_ROOT=no -DPQXX_ROOT=no \
+        -DSPOT_ROOT=no -DYICES_ROOT=no \
+        -Ddisable-tutorial-directory=ON \
+        -Dclang-frontend=ON
+
+
+
+cmake ../rose -Denable-java=no -Denable-opencl=no \
+        -Denable-php=no -DQT_ROOT=no -DZ3_ROOT=no \
+        -Denable-binary-analysis=no \
+        -Denable-cuda=no -Denable-fortran=no \
+        -Denable-FLTK=no -DYAMLCPP_ROOT=no \
+        -DCAPSTONE_ROOT=no -DGCRYPT_ROOT=no \
+        -DGPGERROR=no -DMAGIC_ROOT=no -DPQXX_ROOT=no \
+        -Ddisable-tutorial-directory=ON \
+        -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ \
+        -DSPOT_ROOT=no -DYICES_ROOT=no
